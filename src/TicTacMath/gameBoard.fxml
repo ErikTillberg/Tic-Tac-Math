@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TicTacMath.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TextField fx:id = "textField11" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="1">
+         <font>
+            <Font name="Cambria Math" size="29.0" />
+         </font></TextField>
+      <TextField fx:id = "textField12" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="2">
+         <font>
+            <Font name="Cambria Math" size="29.0" />
+         </font></TextField>
+      <TextField fx:id = "textField13" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="3">
+          <font>
+              <Font name="Cambria Math" size="29.0" />
+          </font>
+      </TextField>
+      <TextField fx:id = "textField21" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1">
+          <font>
+              <Font name="Cambria Math" size="29.0" />
+          </font>
+      </TextField>
+      <TextField fx:id = "textField22" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="2" GridPane.rowIndex="1">
+          <font>
+              <Font name="Cambria Math" size="29.0" />
+          </font>
+      </TextField>
+      <TextField fx:id = "textField23" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
+          <font>
+              <Font name="Cambria Math" size="29.0" />
+          </font>
+      </TextField>
+      <TextField fx:id = "textField31" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="2">
+          <font>
+              <Font name="Cambria Math" size="29.0" />
+          </font>
+      </TextField>
+      <TextField fx:id = "textField32" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="2" GridPane.rowIndex="2">
+          <font>
+              <Font name="Cambria Math" size="29.0" />
+          </font>
+      </TextField>
+      <TextField fx:id = "textField33" alignment="CENTER" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+          <font>
+              <Font name="Cambria Math" size="29.0" />
+          </font>
+      </TextField>
+      <FlowPane prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <children>
+            <TextField fx:id = "availableNumbersTF" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="200.0" text="1,2,3,4,5,6,7,8,9">
+               <font>
+                  <Font name="Cambria Math" size="20.0" />
+               </font></TextField>
+         </children></FlowPane>
+      <TextField fx:id = "titleTF" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="200.0" text="Tic Tac Math">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" editable="false" text="By Erik Tillberg" GridPane.rowIndex="2" />
+   </children>
+</GridPane>
